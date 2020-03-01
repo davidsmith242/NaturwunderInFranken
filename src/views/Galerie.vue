@@ -6,19 +6,19 @@
 
     <buchreihe />
 
-    <!-- <social /> -->
+    <social />
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Home',
+    name: 'Galerie',
 
     components: {
       Buchreihe: () => import('@/components/home/Buchreihe'),
       // Articles: () => import('@/components/home/Articles'),
       // Banner: () => import('@/components/home/Banner'),
-      // Social: () => import('@/components/home/Social'),
+      Social: () => import('@/components/home/Social'),
     }
   }
 </script>

@@ -1,0 +1,147 @@
+{
+    "spessart": {
+        "titel": "Naturwunder Spessart",
+        "textoben": "Der Spessart beherbergt 400 Jahre alte Eichen und Buchen. Er gilt als Heimat von sieben Spechtarten und zählt zu den Hotspots der Artenvielfalt in Bayern. Er erfüllt alle Voraussetzungen für ein großes Schutzgebiet. Dies beweisen nicht nur naturschutzfachliche, sondern auch forstfachliche Untersuchungen.",
+        "textelinks": [
+            "Teile der ausgewiesenen Natura-200-Flächen müssten aber dauerhaft und verpflichtend aus der Nutzung genommen werden, um sie auch langfristig als Rückzugsgebiet für seltene Arten zu sichern. Dies ist nur mit einem höheren Schutzstatus erreichbar.",
+            "Aus Naturschutzsicht liegen insbesondere in Nordbayern unzerschnittene Waldgebiete mit hoher Biodiversität."
+        ],
+        "bild":"spessart.jpg",
+        "konzept":
+        {
+            "titel": "Dabei ragt der Spessart besonders heraus.",
+            "text": "Die Ausweisung eines Nationalparks würde einen solchen hohen Status am besten sicherstellen."
+
+        }
+    },
+    "rhoen": {
+        "titel": "Naturwunder Rhön",
+        "textoben": "Die Rhön wird auch das Land der offenen Fernen genannt. An sonnigen Tagen kann man von ihren Basaltkuppen aus wunderbare Aussichten genießen. Sie gehört mit ihren Landschaften aber auch zu den Hotspots der Artenvielfalt in Bayern, was zum Beispiel an vielen seltenen Tagfaltern belegt werden kann.",
+        "textelinks": [
+            "Doch der dramatische Rückgang bei den Insekten zeigt sich bei den Schmetterlingen genau so, wie bei seltenen Vogelarten, denn nutzungsfreies Offenland wird immer seltener. Heute überleben seltene Arten meist nur noch in geschützten Gebieten, wie sie die Rhön noch beherbergt.",
+            "Aber auch Moore findet man hier. Sie entstanden über einen sehr langen Zeitraum und nur aufgrund spezieller klimatischer Besonderheiten."
+        ],
+        "bild":"rhoen.jpg",
+        "konzept":
+        {
+            "titel": "Die Rhön ist etwas besonderes.",
+            "text": "Mit dem Roten- und dem Schwarzen Moor besitzt die Rhön zwei Hochmoore, die ihresgleichen suchen."
+
+        }
+    },
+    "gaeulandschaft": {
+        "titel": "Naturwunder im Südosten Würzburgs",
+        "textoben": "Die Ochsenfurter- und Uffenheimer Gäulandschaft ist ein flachwelliges Altsiedelland. Es ist seit jeher stark agrarisch geprägt und liegt im Südosten Unterfrankens. Für Bauern ist das Gebiet ein Traum, denn die weite Ebene besitzt den besten Boden in ganz Bayern. Der Grund dieser hohen Fruchtbarkeit ist der Lößboden. Er gilt als einer der fruchtbarsten Bodenarten in ganz Europa.",
+        "textelinks": [
+            "Teile dieser Landschaften sind jedoch als Vogelschutzgebiete ausgewiesen, denn dort leben seltene Offenlandarten wie die Wiesenweihe, der Ortolan und das Braunkehlchen die einem immer stärker werdenden Nutzungsdruck ausgesetzt sind. Sie benötigen daher mehr Schutz."
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "Tierwelt der Agrarlandschaften",
+            "text": "Seltene Hecken- und Bodenbrüter wie Wiesenpieper, Wachtel, Raubwürger, Grauammer und Braunkehlchen haben es immer schwerer, denn die blühende Grünlandstreifen und Hecken, die sie für die Nahrungssuche und zum brüten brauchen, werden immer seltener."
+
+        }
+    },
+    "steigerwald": {
+        "titel": "Naturwunder Steigerwald",
+        "textoben": " ",
+        "textelinks": [
+            "",
+            ""
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "",
+            "text": ""
+
+        }
+    },
+    "oberermain": {
+        "titel": "Naturwunder vor Bambergs Toren",
+        "textoben": "Flüsse wie der Main oder die Itz durchdringen weiträumig unsere Landschaften und vernetzen so unsere Lebensräume. Sie haben im Laufe der Zeit unzählige Schleifen gebildet und damit ihren Einflussbereich vergrößert. An anderer Stelle verschwanden diese Schleifen auch wieder. Ein fortwährender Veränderungsprozess, der wichtig für die Natur ist.",
+        "textelinks": [
+            "Der Mensch hat dies jedoch nur selten zugelassen. Er hat die Flussläufe begradigt und sie durch Bauwerke zerschnitten; zum Leidwesen vieler Arten, die an Süßwasserlebensräume gebunden sind. Heute wird durch Rückbaumaßnahmen und Renaturierungen wie am Oberlauf des Mains wieder mehr Lebensraum für die Natur geschaffen. Dies ist ein Segen, nicht nur für gefährdete Fischarten."
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "Frankens Lebensader",
+            "text": "Flüsse wie der Main oder die Itz vernetzen unsere Lebensräume. Zusammen mit der Albtrauf bieten sie vielen Tier- und Pflanzenarten ein Zuhause und sind damit Hotspots der Artenvielfalt."
+        }
+    },
+    "altmuehl": {
+        "titel": "Naturwunder Altmühl, Tauber, Frankenhöhe",
+        "textoben": "Die Flusslandschaften der Altmühl und der Tauber sind stark vom Menschen geprägt. Sie sind aber gleichzeitig auch Hotspots der Artenvielfalt in Bayern. So sieht man noch unzählige und selten gewordene Wasservogelarten zum Beispiel in den Schutzgebieten rund um den Altmühlsee.",
+        "textelinks": [
+            "Aber auch seltene Amphibien und Krebse sind in diesen Feuchtlebensräumen zu Hause. Den hohen ökologischen Stellenwertbeweisen die ausgewiesenen Natura 2000 Gebiete dieser Region.",
+            "Die Wälder der Frankenhöhe bilden dabei ein natürliches Bindeglied zu diesen Flusslebensräumen. Denn auch dort leben viele selten gewordene Arten."
+        ],
+        "bild":"altmuehl.jpg",
+        "konzept":
+        {
+            "titel": "Im Reich der Wasservögel",
+            "text": "Vor allem die Schutzgebiete rund um die Fränkische Seenplatte zählen mit den vielen dort vorkommenden seltenen Vogelarten zu den artenreichsten Feuchtgebieten in Bayern."
+        }
+    },
+    "reichswald": {
+        "titel": "Naturwunder ...",
+        "textoben": " ",
+        "textelinks": [
+            "",
+            ""
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "",
+            "text": ""
+
+        }
+    },
+    "fraenkischeschweiz": {
+        "titel": "Naturwunder ...",
+        "textoben": " ",
+        "textelinks": [
+            "",
+            ""
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "",
+            "text": ""
+
+        }
+    },
+    "fichtelgebirge": {
+        "titel": "Naturwunder im Fichtelgebirge",
+        "textoben": "Das Fichtelgebirge wird im allgemeinen den submontanen Bergmischwäldern zugeordnet. Aufgrund seiner großen Höhendiff erenz, die zwischen 580 und 1051 Metern über dem Meeresspiegel liegt und der unterschiedlichen Zusammensetzung der verschiedenen Gesteinsarten beherbergt das Fichtelgebirge eine außergewöhnliche Artenvielfalt.",
+        "textelinks": [
+            "Auch die klimatischen Gegebenheiten tragen hierzu bei. Die jährlichen Durchschnittstemperaturen liegen bei rund fünf Grad Celsius, der jährliche Niederschlag zwischen 800-1200 mm. Im inneren „Hufeisen“ des Fichtelgebirges ist es aufgrund der Windschattenseite und der niedrigeren Höhenlage etwa ein Grad wärmer. Auch der jährliche Niederschlag ist dort mit 550-850 mm deutlich niedriger.",
+            "Die ausgewiesenen Natura 2000 Gebiete beweisen den hohen ökologischen Stellenwert dieser Region."
+        ],
+        "bild":"fichtelgebirge.jpg",
+        "konzept":
+        {
+            "titel": "Das Fichtelgebirge ist STEIN REICH",
+            "text": "Außergewöhnliche Gesteinsformationen schmücken eine der schönsten Landschaften unserer Heimat."
+        }
+    },
+    "empty": {
+        "titel": "Naturwunder ...",
+        "textoben": " ",
+        "textelinks": [
+            "",
+            ""
+        ],
+        "bild":"none.jpg",
+        "konzept":
+        {
+            "titel": "",
+            "text": ""
+
+        }
+    }
+}

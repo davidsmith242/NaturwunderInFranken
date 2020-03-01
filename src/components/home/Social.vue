@@ -9,7 +9,7 @@
         xs12
         md4
       >
-        <instagram />
+        <!-- <instagram /> -->
       </v-flex>
       <v-flex
         xs12
@@ -31,7 +31,7 @@
   export default {
     components: {
       NewestPosts: () => import('@/components/NewestPosts'),
-      Instagram: () => import('@/components/Instagram'),
+      // Instagram: () => import('@/components/Instagram'),
       Tags: () => import('@/components/Tags')
     }
   }

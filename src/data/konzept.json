@@ -1,0 +1,17 @@
+{
+    "titel": "Klare Gliederung",
+    "textoben": "Viele Menschen sind sehr »ortstreu und lieben ihre Region«. In meinen Büchern zeige ich, was wir zu verlieren haben. Sie ziehen den Betrachter in den Bann mit Bildern, die Stimmung wiedergeben, die Details dokumentieren und Lebensräume abbilden. Angefüttert von den Fotos, findet man sich in der Theorie wieder. Eine klare Gliederung, Grafiken und Symbole machen es einfach, sich in der Systematik zu orientieren. Der Leser soll sich nach einem einleitenden Teil schnell zurechtfinden, wenn er sich über eine seltene heimische Tierart informieren will.",
+    "bild":"032_Konzept_Bild.jpg",
+    "bildtext": "In den Steckbriefen steht, wie deren aktuelle Gefährdung einzuschätzen ist, wo sie vorkommt, wie sie aussieht und lebt. Eine spezielle Markierung, die an den Seitenrändern angebracht ist, hilft beim Nachschlagen.",
+    "absaetze":[
+        {
+            "titel": "Schauen, lesen und lernen",
+            "text": "Dies ist das Konzept: Man blättert ein bisschen, schaut mal hier, liest mal da und findet am Ende noch Informationen über die Auswirkungen modernen Lebens auf die Natur. Bezug wird dabei auf die regionalen Natura 2000-Gebiete genommen, mit deren Hilfe versucht werden soll, die Abwärtsspirale beim Artenreichtum zu bremsen. Das Buch funktioniert als Nachschlagewerk und regt gleichzeitig zum Nachdenken an. Gleichzeitig lernt der Leser alle Tiere und Lebensräume dieser Gebiete kennen, für die wir eine besondere Verantwortung tragen. Ich hoffe, dass ich viele Menschen mit meinen Büchern motivieren kann, selbst hinaus zu gehen um das Leben, das uns umgibt, neu zu entdecken."
+        },
+        {
+            "titel": "Nachdenken und unterstützen",
+            "text": "Mich lassen Nachrichten wie das Bienensterben oder die Nitratbelastung der Böden keine Ruhe. Ich habe nicht den Eindruck, dass das Gefühl für die Bedeutung der Artenvielfalt als Lebensgrundlage des Menschen wächst. Fünf Prozent des Verkaufspreises gehen zu gleichen Teilen an den Bund Naturschutz und den Landesbund für Vogelschutz. Damit möchte ich den lokalen Naturschutz unterstützen."
+        }
+    ]
+    
+}

@@ -1,0 +1,69 @@
+<template>
+  <div class="pa-4">
+    <v-card
+      class="mx-auto"
+      max-width="300"
+      tile
+    >
+      <v-list shaped dense>
+        <v-subheader>LINKS</v-subheader>
+        <v-list-item-group color="primary">
+          <v-list-item
+            v-for="(item, i) in buchlinks"
+            :key="i"
+          >
+            <v-list-item-content>
+              <v-list-item-title><router-link :to="{path: item.path}">{{item.text}}</router-link></v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-card>
+  </div>
+</template>
+
+<script>
+  // Utilities
+  import {
+    mapGetters,
+    mapMutations
+  } from 'vuex'
+
+  export default {
+    name: 'BuchNav',
+
+    data: () => ({
+      links:'sjcd'
+    }),
+
+    computed: {
+      ...mapGetters(['buchlinks']),
+      drawer: {
+        get () {
+          return this.$store.state.drawer
+        },
+        set (val) {
+          this.setDrawer(val)
+        }
+      }
+    },
+
+    methods: {
+      ...mapMutations(['setDrawer']),
+      onClick (e, item) {
+        e.stopPropagation()
+
+        if (item.to === '/') {
+          this.$vuetify.goTo(0)
+          this.setDrawer(false)
+          return
+        }
+
+        if (item.to || !item.href) return
+
+        this.$vuetify.goTo(item.href)
+        this.setDrawer(false)
+      }
+    }
+  }
+</script>

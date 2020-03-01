@@ -1,5 +1,5 @@
 <template>
-  <v-content id="content">
+  <v-content>
     <router-view />
   </v-content>
 </template>

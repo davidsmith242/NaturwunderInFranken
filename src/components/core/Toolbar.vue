@@ -7,7 +7,6 @@
       shrink-on-scroll
       fade-img-on-scroll
       :src="require('@/assets/img/HG_Bild_72.jpg')"
-      scroll-target="#content"
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -32,10 +31,7 @@
       </v-btn>
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab><router-link to="/">Home</router-link></v-tab>
-          <v-tab><router-link to="/about">Test</router-link></v-tab>
-          <v-tab>Tab 2</v-tab>
-          <v-tab>Tab 3</v-tab>
+          <v-tab v-for="(link, index ) in navlinks" :key="index"><router-link :to="link.to">{{link.text}}</router-link></v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
@@ -74,7 +70,7 @@
         }]
     }),
     computed: {
-      ...mapGetters(['links'])
+      ...mapGetters(['navlinks'])
     },
 
     methods: {
