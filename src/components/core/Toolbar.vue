@@ -17,7 +17,7 @@
       <!-- <v-toolbar-title>Title</v-toolbar-title> -->
 
       <v-spacer></v-spacer>
-
+<!-- 
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
@@ -25,13 +25,19 @@
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
       </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+-->
+      <v-avatar color="light-green lighten-5" :size="size" style="margin-right: 40px;">
+        <img
+          :src="require('@/assets/img/Salamander.png')"
+          alt="Salamander"
+        >
+      </v-avatar>
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab v-for="(link, index ) in navlinks" :key="index"><router-link :to="link.to">{{link.text}}</router-link></v-tab>
+          <v-tab v-for="(link, index ) in navlinks" :key="index" :to="{path: link.to}">
+            <!-- <router-link :to="link.to">{{link.text}}</router-link> -->
+            {{link.text}}
+          </v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
@@ -47,41 +53,50 @@
 <script>
   // Utilities
   import {
-    mapGetters,
-    mapMutations
+    mapGetters
+    // mapMutations
   } from 'vuex'
 
   export default {
     data: () => ({
       drawer:true,
-      items: [
-        { src: 'adventurealtitude.jpg' },
-        { src: 'garden.jpg' },
-        { src: 'pigduck.jpg' },
-        { src: 'rain.jpg' },
-        { src: 'spices.jpg' },
-        { src: 'sunset.jpg' }
-      ],
-      gewerke: [
-        {
-          icon: 'store',
-          title: 'Innenausbau',
-          path: '/gewerk/innenausbau'
-        }]
+      size: 220,
+      window: {
+        width: 0,
+        height: 0
+      }
     }),
     computed: {
       ...mapGetters(['navlinks'])
     },
 
     methods: {
-      ...mapMutations(['toggleDrawer']),
-      onClick (e, item) {
-        e.stopPropagation()
+      // ...mapMutations(['toggleDrawer']),
+      handleResize() {
+          this.window.width = window.innerWidth;
+          this.window.height = window.innerHeight;
+          if (this.window.height <= 200 || this.window.width <= 600) {
+            this.size = 140
+          } else if(this.window.width <= 1000) {
+            this.size = 160
+          } else {
+            this.size = 215
+          }
+      },
+      // onClick (e, item) {
+      //   e.stopPropagation()
 
-        if (item.to || !item.href) return
+      //   if (item.to || !item.href) return
 
-        this.$vuetify.goTo(item.href)
-      }
-    }
+      //   this.$vuetify.goTo(item.href)
+      // }
+    },
+    created() {
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    },
   }
 </script>

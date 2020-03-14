@@ -20,9 +20,9 @@
         </div>
       </v-col>
       <v-col cols="6">
-        <div class="pa-6">
-        <v-img aspect-ratio="1"
-          min-height="250" max-height="450" :src="require('@/assets/img/Buchreihe.png')" alt="Buchreihe"></v-img>
+        <div class="pa-2">
+        <v-img
+          min-height="250" max-height="495" max-width="570" :src="require('@/assets/img/Buchreihe.png')" alt="Buchreihe"></v-img>
         </div>
       </v-col>
       <v-col cols="2">

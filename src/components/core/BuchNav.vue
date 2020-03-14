@@ -11,9 +11,10 @@
           <v-list-item
             v-for="(item, i) in buchlinks"
             :key="i"
+            :to="{path: item.path}"
           >
             <v-list-item-content>
-              <v-list-item-title><router-link :to="{path: item.path}">{{item.text}}</router-link></v-list-item-title>
+              <v-list-item-title>{{item.text}}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list-item-group>

@@ -1,0 +1,32 @@
+{
+    "titel": "Der Jahreskalender",
+    "textoben": "Wie oft passiert es, dass einem in der Hektik des Alltags der Blick für unsere Natur immer mehr verloren geht? Dabei müssen wir uns gar nicht weit weg bewegen. Die Schönheiten unserer Natur liegen direkt vor unserer Haustür.",
+    "absaetze":[
+        {
+            "titel": "",
+            "text": "Nehmen Sie sich ein Stück Natur mit nach Hause. Für jeden Tag hält der Tischkalender ein Stück Heimat für Sie bereit. Genießen Sie mit „Naturwunder in Franken“ die Ursprünglichkeit, die in unserer schnelllebigen Welt immer mehr verlohren geht. Schätzen Sie diese, jeden weiteren Tag ein kleines bisschen mehr."
+        },
+        {
+            "titel": "Beispiel 30. Dezember: Prinzenfelsen",
+            "text": "\"Der Prinzenfelsen ist einer von vielen Granit-Felstürmen die man im Fichtelgebirge findet. Sie liegen meist mitten im Wald und sind über den Fränkischen Gebirgsweg erreichbar.\""
+        },
+        {
+            "titel": "Jeden Tag ein neuer Text",
+            "text": "Für jeden Kalendertag habe ich einen passenden Text erstellt. So können Sie mit Ihren Gedanken in das Bild eintauchen und wer weiß, vielleicht ist auch für Sie ab und an eine neue Information dabei."
+        },
+        {
+            "titel": "Beispiel 23. August: Uhu",
+            "text": "Der Uhu ist die größte Eulenart der Erde, wobei die Weibchen deutlich größer sind als die Männchen. Bei einer Körperlänge von 60 cm wiegen sie bis zu 2800 g. Doch trotz seines Gewichtes ist er ein sehr erfolgreicher Nachtjäger. In seinen Gewöllen konnten mehr als 50 unterschiedliche Säugetierarten und fast 180 Vogelarten nachgewiesen werden."
+        }
+    ],
+    "bilder": [
+        {
+            "bild":"08_Kalender_Bild1.jpg",
+            "bildtext": ""
+        },
+        {
+            "bild":"08_Kalender_Bild2.jpg",
+            "bildtext": ""
+        }
+    ]
+}
