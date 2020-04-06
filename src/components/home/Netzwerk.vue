@@ -1,14 +1,5 @@
 <template>
-  <v-container
-    id="netzwerk"
-    tag="section"
-    grid-list-xl
-  >
-    <v-layout wrap>
-      <v-flex
-        xs12
-        md4
-      >
+  <div>
       <!-- <img src="Karte_HG.jpg" usemap="#image-map"> -->
       <!-- <img
         :src="require(`@/assets/netzwerk/Karte_HG.png`)"
@@ -22,7 +13,7 @@
           usemap="#image-map"
         />
 
-        <map name="image-map">
+        <map name="image-map" v-on:mouseover="slide=false" v-on:mouseleave="slide=true">
             <area 
               v-on:mouseover="index = 1"
               v-on:mouseleave="index = 0" 
@@ -60,10 +51,7 @@
               v-on:mouseleave="index = 0" 
               target="" alt="Steigerwald" title="Steigerwald" href="/#/buch/steigerwald" coords="618,392,56" shape="circle">
         </map>
-
-      </v-flex>
-    </v-layout>
-  </v-container>
+  </div>
 </template>
 
 <script>
@@ -83,11 +71,29 @@
     components: {},
     data() {
         return {
+          slide: true,
           index: 0,
           images: [
             bild0, bild1, bild2, bild3, bild4, bild5, bild6, bild7, bild8, bild9
           ]
         }
+    },
+    mounted: function () {
+
+      const runSlide = () => {
+        setTimeout(() => {
+          if(this.slide === true)
+          {
+            if (this.index >= 9) {
+              this.index = 0
+            } else {
+              this.index++
+            }
+          }
+          runSlide()
+        }, 5000)
+      }
+      runSlide()
     }
   }
 </script>

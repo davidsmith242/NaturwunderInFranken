@@ -3,14 +3,15 @@
     id="buch"
     tag="section"
   >
-    <base-subheading>{{ $route.params.id }}</base-subheading>
+    <base-subheading>Buchreihe</base-subheading>
     <v-row no-gutters>
-      <v-col cols="3">
-        <div class="pa-4">
+      <v-col sm="3">
+        <!-- <div class="pa-4"> -->
           <buch-nav></buch-nav>
-        </div>
+          <meinungen style="margin-top: 20px;"></meinungen>
+        <!-- </div> -->
       </v-col>
-      <v-col cols="9">
+      <v-col sm="9">
         <buch-default v-bind:json="myJson" />
       </v-col>
     </v-row>
@@ -32,6 +33,7 @@
     components: {
       BuchNav: () => import('@/components/core/BuchNav'),
       BuchDefault: () => import('@/components/core/BuchDefault'),
+      Meinungen: () => import('@/components/Meinungen'),
       // // Articles: () => import('@/components/home/Articles'),
       // // Banner: () => import('@/components/home/Banner'),
       // Social: () => import('@/components/home/Social'),

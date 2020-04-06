@@ -1,25 +1,19 @@
 <template>
-  <div class="pa-4">
-    <v-card
-      class="mx-auto"
-      max-width="300"
-      tile
-    >
-      <v-list shaped dense>
-        <v-subheader>LINKS</v-subheader>
-        <v-list-item-group color="primary">
-          <v-list-item
-            v-for="(item, i) in buchlinks"
-            :key="i"
-            :to="{path: item.path}"
-          >
-            <v-list-item-content>
-              <v-list-item-title>{{item.text}}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-    </v-card>
+  <div>
+    <v-list shaped dense>
+      <!-- <v-subheader>Bücher</v-subheader> -->
+      <v-list-item-group color="primary">
+        <v-list-item
+          v-for="(item, i) in buchlinks"
+          :key="i"
+          :to="{path: item.path}"
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{item.text}}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
   </div>
 </template>
 

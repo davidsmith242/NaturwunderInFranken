@@ -6,7 +6,6 @@
 
     <buchreihe />
 
-    <netzwerk />
   </div>
 </template>
 
@@ -18,7 +17,7 @@
       Buchreihe: () => import('@/components/home/Buchreihe'),
       // Articles: () => import('@/components/home/Articles'),
       // Banner: () => import('@/components/home/Banner'),
-      Netzwerk: () => import('@/components/home/Netzwerk'),
+      // Netzwerk: () => import('@/components/home/Netzwerk'),
     }
   }
 </script>

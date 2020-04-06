@@ -51,18 +51,6 @@
         },
         {
           href: '#!',
-          icon: 'mdi-google-plus'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-reddit'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-discord'
-        },
-        {
-          href: '#!',
           icon: 'mdi-pinterest'
         }
       ]

@@ -12,12 +12,12 @@
       </v-col>
     </v-row>
     <v-row no-gutters v-for="(absatz, index) in autor.absaetze" :key="index">
-      <v-col cols="7">
+      <v-col sm="7">
         <div class="pa-4">
           <p>{{ absatz.text}}</p>
         </div>
       </v-col>
-      <v-col cols="5">
+      <v-col sm="5">
         <div class="pa-4" align="center" justify="center">
           <v-img
             height="90%"

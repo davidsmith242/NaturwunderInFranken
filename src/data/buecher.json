@@ -35,7 +35,7 @@
         "textelinks": [
             "Teile dieser Landschaften sind jedoch als Vogelschutzgebiete ausgewiesen, denn dort leben seltene Offenlandarten wie die Wiesenweihe, der Ortolan und das Braunkehlchen die einem immer stärker werdenden Nutzungsdruck ausgesetzt sind. Sie benötigen daher mehr Schutz."
         ],
-        "bild":"none.jpg",
+        "bild":"gaeulandschaft.jpg",
         "konzept":
         {
             "titel": "Tierwelt der Agrarlandschaften",
@@ -45,12 +45,12 @@
     },
     "steigerwald": {
         "titel": "Naturwunder Steigerwald",
-        "textoben": " ",
+        "textoben": "Dieses Buch ist in Vorbereitung.",
         "textelinks": [
             "",
             ""
         ],
-        "bild":"none.jpg",
+        "bild":"steigerwald.jpg",
         "konzept":
         {
             "titel": "",
@@ -64,7 +64,7 @@
         "textelinks": [
             "Der Mensch hat dies jedoch nur selten zugelassen. Er hat die Flussläufe begradigt und sie durch Bauwerke zerschnitten; zum Leidwesen vieler Arten, die an Süßwasserlebensräume gebunden sind. Heute wird durch Rückbaumaßnahmen und Renaturierungen wie am Oberlauf des Mains wieder mehr Lebensraum für die Natur geschaffen. Dies ist ein Segen, nicht nur für gefährdete Fischarten."
         ],
-        "bild":"none.jpg",
+        "bild":"obererMain.jpg",
         "konzept":
         {
             "titel": "Frankens Lebensader",
@@ -86,13 +86,13 @@
         }
     },
     "reichswald": {
-        "titel": "Naturwunder ...",
-        "textoben": " ",
+        "titel": "Naturwunder Nürnberger Reichswald",
+        "textoben": "Dieses Buch ist in Vorbereitung.",
         "textelinks": [
             "",
             ""
         ],
-        "bild":"none.jpg",
+        "bild":"reichswald.jpg",
         "konzept":
         {
             "titel": "",
@@ -101,13 +101,13 @@
         }
     },
     "fraenkischeschweiz": {
-        "titel": "Naturwunder ...",
-        "textoben": " ",
+        "titel": "Naturwunder Fränkische Schweiz",
+        "textoben": "Dieses Buch ist in Vorbereitung.",
         "textelinks": [
             "",
             ""
         ],
-        "bild":"none.jpg",
+        "bild":"fraenkischeSchweiz.jpg",
         "konzept":
         {
             "titel": "",
@@ -136,7 +136,7 @@
             "",
             ""
         ],
-        "bild":"none.jpg",
+        "bild":"",
         "konzept":
         {
             "titel": "",
