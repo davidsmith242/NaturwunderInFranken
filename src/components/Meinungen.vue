@@ -7,7 +7,7 @@
       <a class="" v-if="readMoreActivated[index] === false" @click="clickMore(index)"> mehr...</a>
       <a class="" v-if="readMoreActivated[index] === true" @click="clickLess(index)"> weniger</a>
       <br />
-      <span class="font-weight-medium" v-html="meinung.leser"></span>
+      <span class="font-weight-light font-italic" v-html="meinung.leser"></span>
       <v-divider></v-divider>
     </p>
   </div>

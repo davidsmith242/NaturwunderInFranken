@@ -1,5 +1,9 @@
 <template>
-  <div v-html="bestellung"></div>
+  <div class="bestellung">
+    <h3>{{bestellung.titel}}</h3>
+    <div v-html="bestellung.html"></div>
+  </div>
+  
 </template>
 
 <script>
@@ -8,7 +12,7 @@
   export default {
     name: 'Buchbestellung',
     data: () => ({
-      bestellung: json.bestellung.html
+      bestellung: json.bestellung
     })
   }
 </script>

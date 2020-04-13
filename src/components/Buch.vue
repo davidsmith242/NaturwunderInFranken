@@ -5,13 +5,13 @@
   >
     <base-subheading>Buchreihe</base-subheading>
     <v-row no-gutters>
-      <v-col sm="3">
+      <v-col sm="3" lg="2">
         <!-- <div class="pa-4"> -->
           <buch-nav></buch-nav>
-          <meinungen style="margin-top: 20px;"></meinungen>
+          <!-- <meinungen style="margin-top: 20px;"></meinungen> -->
         <!-- </div> -->
       </v-col>
-      <v-col sm="9">
+      <v-col sm="9" lg="10">
         <buch-default v-bind:json="myJson" />
       </v-col>
     </v-row>
@@ -33,7 +33,7 @@
     components: {
       BuchNav: () => import('@/components/core/BuchNav'),
       BuchDefault: () => import('@/components/core/BuchDefault'),
-      Meinungen: () => import('@/components/Meinungen'),
+      // Meinungen: () => import('@/components/Meinungen'),
       // // Articles: () => import('@/components/home/Articles'),
       // // Banner: () => import('@/components/home/Banner'),
       // Social: () => import('@/components/home/Social'),

@@ -6,6 +6,7 @@
         "html": "<p>Gemeinsam bilden die hier vorgestellten Gebiete ein Netzwerk, das geschützt werden muss, um unsere Lebensgrundlagen zu erhalten.</p><p>Die Natur ist <span style=\"color: red\">der Schatz vor unserer Haustür.</span></p>"
     },
     "bestellung": {
+        "titel": "Buchbestellung",
         "html": "<p>Das Buch kann beim Autor per Mail unter:</p><p><a href=\"mailto:frank@schroepfer-net.de\">frank@schroepfer-net.de</a> bestellt werden.</p><p>Es kostet <strong>29 EUR</strong> zuzüglich 4 EUR Versandpauschale</p>"
     },
     "meinungen": {

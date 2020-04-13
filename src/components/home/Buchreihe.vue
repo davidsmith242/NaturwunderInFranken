@@ -5,10 +5,10 @@
   >
     <base-subheading>{{ json.titel}}</base-subheading>
     <v-row no-gutters>
-      <v-col sm="3">
+      <v-col sm="3" lg="2">
         <buch-nav></buch-nav>
       </v-col>
-      <v-col sm="9">
+      <v-col sm="9" lg="10">
         <v-row>
           <v-col md="12">
             <div class="pa-2">
@@ -32,7 +32,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12">
+      <v-col md="12">
         <div class="pa-4 hidden-sm-and-down" align="center" justify="center">
           <netzwerk />
         </div>

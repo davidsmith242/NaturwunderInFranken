@@ -9,6 +9,7 @@
       
       fade-img-on-scroll
       :src="require('@/assets/img/HG_Bild_72.jpg')"
+      class=""
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -29,12 +30,14 @@
         <v-icon>mdi-heart</v-icon>
       </v-btn>
 -->
-      <v-avatar color="light-green lighten-5" :size="size" style="margin-right: 40px; z-index:300">
-        <img
-          :src="require('@/assets/img/Salamander.png')"
-          alt="Salamander"
-        >
-      </v-avatar>
+      <div class="d-flex pa-2">
+        <v-avatar color="light-green lighten-5" :size="size">
+          <img
+            :src="require('@/assets/img/Salamander.png')"
+            alt="Salamander"
+          >
+        </v-avatar>
+      </div>
       <template v-slot:extension>
         <v-tabs align-with-title class="hidden-sm-and-down">
           <v-tab v-for="(link, index ) in navlinks" :key="index" :to="{path: link.to}">
@@ -78,7 +81,7 @@
   export default {
     data: () => ({
       drawer:true,
-      size: 220,
+      size: 205,
       window: {
         width: 0,
         height: 0
@@ -94,11 +97,11 @@
           this.window.width = window.innerWidth;
           this.window.height = window.innerHeight;
           if (this.window.height <= 200 || this.window.width <= 600) {
-            this.size = 140
+            this.size = 155
           } else if(this.window.width <= 1000) {
             this.size = 160
           } else {
-            this.size = 215
+            this.size = 205
           }
       },
       // onClick (e, item) {

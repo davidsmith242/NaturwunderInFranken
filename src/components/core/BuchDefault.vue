@@ -28,8 +28,9 @@
             ></v-img>
           </div>
         </v-col>
-        <v-col cols="3">
+        <v-col xs="12">
           <buchbestellung />
+          <meinungen style="margin-top: 20px;"></meinungen>
         </v-col>
       </v-row>
     </v-container>
@@ -49,7 +50,8 @@ export default {
   components: {
     buchbestellung: () => import("@/components/Buchbestellung"),
     buchkonzeptlink: () => import("@/components/Buchkonzeptlink"),
-    buchschatz: () => import("@/components/Buchschatz")
+    buchschatz: () => import("@/components/Buchschatz"),
+    Meinungen: () => import('@/components/Meinungen'),
   },
   data: () => ({
     // data: this.json

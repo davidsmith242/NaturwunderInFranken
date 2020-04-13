@@ -37,22 +37,14 @@
   export default {
     data: () => ({
       items: [
+        // {
+        //   href: '#!',
+        //   icon: 'mdi-twitter'
+        // },
         {
-          href: '#!',
-          icon: 'mdi-twitter'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-instagram'
-        },
-        {
-          href: '#!',
+          href: 'https://www.facebook.com/people/Frank-Schr%C3%B6pfer/100009321392269',
           icon: 'mdi-facebook'
         },
-        {
-          href: '#!',
-          icon: 'mdi-pinterest'
-        }
       ]
     })
   }
