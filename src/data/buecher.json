@@ -87,10 +87,11 @@
     },
     "reichswald": {
         "titel": "Naturwunder Nürnberger Reichswald",
-        "textoben": "Dieses Buch ist in Vorbereitung.",
+        "textoben": "Der Nürnberger Reichswald ist ein ausgedehnter und zusammenhängender Waldkomplex der eine große Vielfalt an Waldgesellschaften und Biotopen besitzt. Seine Offenbereiche, Bachtäler und Kleingewässer, aber auch die großflächigen, trockenen Kieferwälder sind einzigartig.",
         "textelinks": [
-            "",
-            ""
+            "Wir müssen naturnahe Waldlebensräume als unser Erbe begreifen. Die eingestreuten Laubholzbereiche müssen jedoch gefördert werden. Nur so können sich weitere Misch- und Laubwaldstrukturen entwickeln, die seltenen Tierarten als Lebensräume dienen.",
+            "Daneben sind natürliche Flüsse und Bäche Lebensadern dieser Region und seiner Menschen. Neben Pegnitz und Rednitz kann beispielhaft die Schwarzach genannt werden.",
+            "Überregional ist auch die Sandachse, die sich von Bamberg bis hinunter nach Weißenburg erstreckt, von großer Bedeutung. Sie bietet vielen gefährdeten Tier- und Pflanzenarten ein Zuhause und ist deshalb von landesweiter Bedeutung."
         ],
         "bild":"reichswald.jpg",
         "konzept":
