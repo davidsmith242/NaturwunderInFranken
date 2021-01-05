@@ -4,8 +4,11 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import './plugins/base'
+import VueLazyload from 'vue-lazyload'
 
 Vue.config.productionTip = false
+
+Vue.use(VueLazyload, {})
 
 new Vue({
   router,

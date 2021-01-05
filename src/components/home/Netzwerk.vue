@@ -6,7 +6,6 @@
         class="mr-3"
         usemap="#image-map"
       /> -->
-
         <img
           :src="images[index]"
           class="mr-3"

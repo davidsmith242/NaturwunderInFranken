@@ -45,16 +45,15 @@
     },
     "steigerwald": {
         "titel": "Naturwunder Steigerwald",
-        "textoben": "Dieses Buch ist in Vorbereitung.",
+        "textoben": "Der Steigerwald gilt als Herzstück des Keuperberglandes und liegt südlich des Mains zwischen den Städten Nürnberg und Bamberg im Osten und Würzburg und Schweinfurt im Westen. Das Aischtal begrenzt den Steigerwald im Süden. Die sanft abgedachten Steigerwaldrücken umfassen gut 129.000 Hektar und können noch herausragende Laubwaldbestände vorweisen.",
         "textelinks": [
-            "",
-            ""
+            "Diese zusammenhängenden Waldgebiete, wie sie sonst bayernweit nur noch im Spessart vorzufinden sind, bieten die Möglichkeit, unser Naturerbe in bereits ausgezeichneten Natura 2000-Gebieten zu erhalten."
         ],
         "bild":"steigerwald.jpg",
         "konzept":
         {
-            "titel": "",
-            "text": ""
+            "titel": "Große einzigartige Laubwaldbestände",
+            "text": "Führenden Experten ist klar, dass nur in Großschutzgebieten dynamische Prozesse in einem ausreichenden Umfang ablaufen können. Nur mit ihnen kann dem Artenschwund entgegengewirkt werden."
 
         }
     },
@@ -101,16 +100,15 @@
     },
     "fraenkischeschweiz": {
         "titel": "Naturwunder Fränkische Schweiz",
-        "textoben": "Dieses Buch ist in Vorbereitung.",
+        "textoben": "Die Fränkische Schweiz ist aufgrund ihrer geologischen Besonderheiten sehr beliebt. Die charakteristische Berg- und Hügellandschaft wird durch markante Felsformationen und Höhlen durchzogen. Sie entstanden vor etwa 150 Millionen Jahren, als ganz Süddeutschland im Bereich eines großen Flachmeeres lag. Diese Kalk- und Dolomitfelsen des Weißen Jura prägen die Fränkische Schweiz bis heute.",
         "textelinks": [
-            "",
-            ""
+            "Im Laufe der Zeit ist so eine typische Karstlandschaft mit tief eingeschnittenen Flusstälern und trockenen, kargen Hochfl ächen entstanden. Sie ist aber nicht nur außergewöhnlich schön, sie birgt gleichzeitig viele Tier- und Pfl anzenarten."
         ],
         "bild":"fraenkischeSchweiz.jpg",
         "konzept":
         {
-            "titel": "",
-            "text": ""
+            "titel": "Idyllische Flusstäler umgeben von Felsen und Hangwäldern",
+            "text": "Wiesent und Trubach bilden typische Flusslandschaften in der Fränkischen Schweiz. Über den steilen Tälern erheben sich Felsstrukturen, die in Hanglagen von Laubwäldern umgeben sind. Auf den Höhenrücken dehnen sich Magerrasenflächen aus, die sich mit Hecken abwechseln."
 
         }
     },
