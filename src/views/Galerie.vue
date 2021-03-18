@@ -28,7 +28,7 @@ import VueGallery from 'vue-gallery'
       'gallery': VueGallery,
     },
     mounted() {
-      this.importAll(require.context('../assets/galerie/', true, /\.jpg$/));
+      this.importAll(require.context('../assets/galerie/', true, /\.webp$/));
     },
     methods: {
       importAll(r) {
