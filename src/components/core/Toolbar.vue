@@ -1,12 +1,11 @@
 <template>
   <v-card class="overflow-hidden">
     <v-app-bar
-    style="position: static;"
+      style="position: static;"
       color="light-green darken-1"
       dark
       prominent
       shrink-on-scroll
-      
       fade-img-on-scroll
       :src="require('@/assets/img/HG_Bild_72.jpg')"
       class=""
@@ -21,11 +20,9 @@
       <!-- <v-toolbar-title>Title</v-toolbar-title> -->
 
       <v-spacer></v-spacer>
-<!-- 
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
 
+      <information />
+<!-- 
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
       </v-btn>
@@ -79,6 +76,9 @@
   } from 'vuex'
 
   export default {
+    components: {
+      Information: () => import('@/components/InformationDialog')
+    },
     data: () => ({
       drawer:true,
       size: 205,
